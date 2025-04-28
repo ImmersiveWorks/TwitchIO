@@ -1,17 +1,3 @@
-### Version 1.0.0-rc.4
-
-#### Major Development
-- None
-
-#### API Changes
-- Added several Twitch API functions:
-  - Chat > `GetChatters()`
-
-TODO: Blueprints for all
-
-#### Bug Fixes
-- None
-
 ### Version 1.0.0-rc.3
 
 #### Major Development

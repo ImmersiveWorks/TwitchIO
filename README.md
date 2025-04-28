@@ -29,3 +29,6 @@ This plugin has been built with full support for both pure C++ and UE5 Blueprint
 - Chat
 - Raids
 - Users
+
+## Missing Feature?
+If you think that **TwitchIO** is missing a feature, please submit a request on the [Issues](https://github.com/ImmersiveWorks/TwitchIO/issues) page. We will review all requests and determine if they can be implemented and fit the scope of this plugin.
