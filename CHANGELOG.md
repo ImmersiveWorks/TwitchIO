@@ -1,3 +1,19 @@
+### Version 1.0.0-rc.4
+
+#### Major Development
+- None
+
+#### API Changes
+- `EChatSender` has been replaced with `EMode`
+- `OnChatMessage()`, `OnChatCommand()` and `GetChatters()` now take an `EMode` argument *(see Bug Fixes)*
+- Reflects Twitch 2025-04-17 Changelog
+
+#### Bug Fixes
+- `OnChatMessage()` and `OnChatCommand()` do not establish EventSub notifications with `AuthenticateChat()`
+  - Both functions now take a `Listener` to determine if they should be authenticated as the Broadcaster or the Chatter
+
+---
+
 ### Version 1.0.0-rc.3
 
 #### Major Development

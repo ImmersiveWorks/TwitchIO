@@ -1,5 +1,5 @@
 # UE5 Plugin: TwitchIO
-![Latest Version](https://img.shields.io/badge/Latest%20Version-1.0.0--rc.3-darkgreen?logo=unrealengine&logoColor=white)
+![Latest Version](https://img.shields.io/badge/Latest%20Version-1.0.0--rc.4-darkgreen?logo=unrealengine&logoColor=white)
 ![Engine Version](https://img.shields.io/badge/Engine%20Version-5.4.4-blue?logo=unrealengine&logoColor=white)
 ![Engine Version](https://img.shields.io/badge/Engine%20Version-5.5.4-blue?logo=unrealengine&logoColor=white)
 
