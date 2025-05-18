@@ -20,7 +20,7 @@
 - None
 
 #### API Changes
-- Reflects Twitch 2025-04-15 Changelog
+- Reflects Twitch 2025-05-09 Changelog
 
 #### Bug Fixes
 - None
