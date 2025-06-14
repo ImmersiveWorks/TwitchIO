@@ -1,3 +1,17 @@
+### Version 1.0.1
+
+#### Major Development
+- None
+
+#### API Changes
+- Made API changes to reflect Twitch 2025-06-13 Changelog:
+  - Hype Train now v2 implementation
+
+#### Bug Fixes
+- None
+
+---
+
 ### Version 1.0.0-rc.4
 
 #### Major Development
