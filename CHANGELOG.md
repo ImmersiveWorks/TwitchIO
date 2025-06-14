@@ -20,7 +20,7 @@
 #### API Changes
 - `EChatSender` has been replaced with `EMode`
 - `OnChatMessage()`, `OnChatCommand()` and `GetChatters()` now take an `EMode` argument *(see Bug Fixes)*
-- Reflects Twitch 2025-04-17 Changelog
+- Reflects Twitch 2025-05-09 Changelog
 
 #### Bug Fixes
 - `OnChatMessage()` and `OnChatCommand()` do not establish EventSub notifications with `AuthenticateChat()`
