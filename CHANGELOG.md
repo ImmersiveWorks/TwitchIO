@@ -1,3 +1,17 @@
+### Version 1.1.0
+
+#### Major Development
+- None
+
+#### API Changes
+- None
+
+
+#### Bug Fixes
+- Fixed build error preventing plugin from compiling correctly
+
+---
+
 ### Version 1.0.1
 
 #### Major Development

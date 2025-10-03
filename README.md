@@ -1,11 +1,17 @@
 # UE5 Plugin: TwitchIO
-![Latest Version](https://img.shields.io/badge/Latest%20Version-1.0.1-darkgreen?logo=unrealengine&logoColor=white)
-![Engine Version](https://img.shields.io/badge/Engine%20Version-5.4.4-blue?logo=unrealengine&logoColor=white)
-![Engine Version](https://img.shields.io/badge/Engine%20Version-5.5.4-blue?logo=unrealengine&logoColor=white)
+![Plugin Version](https://img.shields.io/badge/Plugin%20Version-1.1.0-darkgreen?logo=unrealengine&logoColor=white)
 
 This is an [Unreal Engine](https://unrealengine.com/) plugin that enables communication with [Twitch](https://twitch.tv/). Users can listen for various Twitch notifications, as well as access Twitch's API.
 
 This plugin has been built with full support for both pure C++ and UE5 Blueprint projects. See the [Wiki](https://github.com/ImmersiveWorks/TwitchIO/wiki) for more information on getting started.
+
+## Supported Versions
+
+**TwitchIO** is built for Unreal Engine 5, with individual build support for UE5 versions 5.4, 5.5, and 5.6.
+
+![Engine Version](https://img.shields.io/badge/Engine%20Version-5.4%20%28Verified%205.4.4%29-blue?logo=unrealengine&logoColor=white)  
+![Engine Version](https://img.shields.io/badge/Engine%20Version-5.5%20%28Verified%205.5.4%29-blue?logo=unrealengine&logoColor=white)  
+![Engine Version](https://img.shields.io/badge/Engine%20Version-5.6%20%28Verified%205.6.1%29-blue?logo=unrealengine&logoColor=white)  
 
 ## EventSub Support
 **TwitchIO** adds support for various EventSub subscriptions. These are detailed in full [here](https://github.com/ImmersiveWorks/TwitchIO/wiki/API-Eventsub) but a simplified overview are as below:
