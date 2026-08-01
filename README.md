@@ -1,5 +1,6 @@
 # UE5 Plugin: TwitchIO
-![Plugin Version](https://img.shields.io/badge/Plugin%20Version-1.1.0-darkgreen?logo=unrealengine&logoColor=white)
+![Plugin Version](https://img.shields.io/badge/Plugin%20Version-1.2.0-darkgreen?logo=cplusplus&logoColor=white)
+![Twitch Version](https://img.shields.io/badge/Twitch%20Version-2026%3A07%3A31-purple?logo=twitch&logoColor=white)
 
 This is an [Unreal Engine](https://unrealengine.com/) plugin that enables communication with [Twitch](https://twitch.tv/). Users can listen for various Twitch notifications, as well as access Twitch's API.
 
@@ -7,11 +8,13 @@ This plugin has been built with full support for both pure C++ and UE5 Blueprint
 
 ## Supported Versions
 
-**TwitchIO** is built for Unreal Engine 5, with individual build support for UE5 versions 5.4, 5.5, and 5.6.
+**TwitchIO** is built for Unreal Engine 5, with individual build support for UE5 versions 5.4 through to 5.8.
 
-![Engine Version](https://img.shields.io/badge/Engine%20Version-5.4%20%28Verified%205.4.4%29-blue?logo=unrealengine&logoColor=white)  
-![Engine Version](https://img.shields.io/badge/Engine%20Version-5.5%20%28Verified%205.5.4%29-blue?logo=unrealengine&logoColor=white)  
-![Engine Version](https://img.shields.io/badge/Engine%20Version-5.6%20%28Verified%205.6.1%29-blue?logo=unrealengine&logoColor=white)  
+![Engine](https://img.shields.io/badge/UE%205.4-Verified%205.4.4-blue?logo=unrealengine&logoColor=white)
+![Engine](https://img.shields.io/badge/UE%205.5-Verified%205.5.4-blue?logo=unrealengine&logoColor=white)
+![Engine](https://img.shields.io/badge/UE%205.6-Verified%205.6.1-blue?logo=unrealengine&logoColor=white)
+![Engine](https://img.shields.io/badge/UE%205.7-Verified%205.7.4-blue?logo=unrealengine&logoColor=white)
+![Engine](https://img.shields.io/badge/UE%205.8-Verified%205.8.1-blue?logo=unrealengine&logoColor=white)  
 
 ## EventSub Support
 **TwitchIO** adds support for various EventSub subscriptions. These are detailed in full [here](https://github.com/ImmersiveWorks/TwitchIO/wiki/API-Eventsub) but a simplified overview are as below:
@@ -23,6 +26,7 @@ This plugin has been built with full support for both pure C++ and UE5 Blueprint
 - Raids
 - Shoutouts
 - Channel Points
+- Power-ups
 - Polls
 - Goals
 - Predictions
@@ -35,6 +39,10 @@ This plugin has been built with full support for both pure C++ and UE5 Blueprint
 - Chat
 - Raids
 - Users
+- Bits
+- Channel Points
+- Hype Train
+- Clips
 
 ## Missing Feature?
 If you think that **TwitchIO** is missing a feature, please submit a request on the [Issues](https://github.com/ImmersiveWorks/TwitchIO/issues) page. We will review all requests and determine if they can be implemented and fit the scope of this plugin.

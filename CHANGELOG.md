@@ -1,3 +1,31 @@
+### Version 1.2.0
+
+#### Major Development
+- Added support for Power-up EventSub interactions
+- Added support for Bits, Channel Points, Clips and Hype Train API interactions
+    - Get Custom Power-up
+    - Create/Delete Custom Reward
+    - Get Custom Reward
+    - Create Clip
+    - Get Clips (by Clip IDs or Broadcaster ID)
+    - Get Clips Direct Link
+    - Get Hype Train Status
+- Expanded version support to cover Unreal 5.4 through to 5.8
+
+#### API Changes
+- `GetUsers` Blueprint now has three variants: `GetUsers`, `GetUsersByID`, and `GetUsersByName`
+    - `GetUsers` functions as before, requiring both channel IDs **and** usernames to be provided, whilst `GetUsersByID` and `GetUsersByName` provide quicker hookups 
+- Made API changes to reflect Twitch 2026-07-31 Changelog:
+    - `Send Chat Message` now has the option to pin the sent message
+    - `Stream Offline` now includes id
+    - `Chat Message` now includes gif fragment 
+
+#### Bug Fixes
+- No longer crashes the Editor when `Twitch` input node is not connected in Blueprints
+    - `OnFailed` callback is triggered and a message printed in the Output Log
+
+---
+
 ### Version 1.1.0
 
 #### Major Development
@@ -5,7 +33,6 @@
 
 #### API Changes
 - None
-
 
 #### Bug Fixes
 - Fixed build error preventing plugin from compiling correctly
